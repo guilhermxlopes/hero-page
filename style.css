@@ -1,0 +1,11 @@
+// global variables
+:root {
+    --ff-website: 'Roboto'
+    --clr-text: #5a5a5a;
+
+    --ff-logo: 1.2rem;
+    --ff-nav: 1rem;
+    --ff-maintitle: 2rem;
+    --ff-subtext: 0.8rem;
+    --ff-button: 0.5rem;
+}
