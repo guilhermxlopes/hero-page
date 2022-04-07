@@ -1,11 +1,68 @@
-// global variables
+/* global variables */
 :root {
-    --ff-website: 'Roboto'
-    --clr-text: #5a5a5a;
+    --ff-website: 'Roboto';
+    --clr-text: white;
+
+
+    --main-color: #DF500A
+    --accent-color: #FF8242;
 
     --ff-logo: 1.2rem;
     --ff-nav: 1rem;
     --ff-maintitle: 2rem;
     --ff-subtext: 0.8rem;
     --ff-button: 0.5rem;
+
+    --Lh-main: 1.3rem;
+    --Lh-sub: 0.8rem;
 }
+
+*, *:before, *::after {box-sizing: inherit};
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--ff-website);
+    color: var(--clr-text);
+    background-image: url(/images/racingcar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+header {
+    text-align: center;
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+nav {
+    position: relative;
+    text-align: left;
+    top: 100%;
+    left: 0;
+
+}
+
+ul, a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--clr-text);
+    padding: 0;
+    margin: 0;
+    font-size: var(--ff-subtext);
+}
+
+nav li {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
