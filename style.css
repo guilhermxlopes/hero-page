@@ -50,16 +50,28 @@ header {
 
 header h1 {
     text-align: left;
+    margin-left: 1rem;
+    color: var(--accent-color);
+}
+
+header h1::first-letter {
+    color: var(--main-color);
+}
+
+header span {
+    color: white;
 }
 
 /* styling navbar */
 
 nav {
     position: absolute;
-    text-align: right;
+    text-align: left;
     top: 100%;
-    left: 0;
+    right: 0;
     display: none;
+    background-color: black;
+    width: 75%;
 }
 
 nav a:hover {
@@ -68,21 +80,64 @@ nav a:hover {
 
 ul, a {
     list-style: none;
+    text-align: right;
     text-decoration: none;
     color: var(--clr-text);
     padding: 0;
     margin: 0;
     font-size: var(--ff-subtext);
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 nav li {
     margin-bottom: 1rem;
-    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 /* mobile toggle */
 
 .nav-switch:checked ~ nav {
     display: block;
+}
+
+.nav-switch {
+    display: none;
+}
+
+.nav-switch-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 1rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-switch-label span,
+.nav-switch-label::before,
+.nav-switch-label::after {
+    display: block;
+    background: white;
+    height: 2px;
+    width: 1.5rem;
+    border-radius: 3px;
+    position: relative;
+}
+
+.nav-switch-label::before,
+.nav-switch-label::after {
+    content: '';
+    position: absolute;
+}
+
+.nav-switch-label::before {
+    bottom: 10px;
+}
+
+.nav-switch-label::after {
+    top: 10px;
 }
