@@ -4,7 +4,7 @@
     --clr-text: white;
 
 
-    --main-color: #DF500A
+    --main-color: #DF500A;
     --accent-color: #FF8242;
 
     --ff-logo: 1.2rem;
@@ -31,8 +31,10 @@ body {
     background-image: url(/images/racingcar.png);
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
+    position: relative;
 }
+
+/* styling container header */
 
 header {
     text-align: center;
@@ -44,12 +46,24 @@ header {
     left: 0;
 }
 
-nav {
-    position: relative;
+/* styling BFast logo */
+
+header h1 {
     text-align: left;
+}
+
+/* styling navbar */
+
+nav {
+    position: absolute;
+    text-align: right;
     top: 100%;
     left: 0;
+    display: none;
+}
 
+nav a:hover {
+    color: var(--main-color);
 }
 
 ul, a {
@@ -59,6 +73,7 @@ ul, a {
     padding: 0;
     margin: 0;
     font-size: var(--ff-subtext);
+    font-weight: bold;
 }
 
 nav li {
@@ -66,3 +81,8 @@ nav li {
     margin-left: 1rem;
 }
 
+/* mobile toggle */
+
+.nav-switch:checked ~ nav {
+    display: block;
+}
