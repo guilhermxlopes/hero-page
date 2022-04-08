@@ -9,9 +9,9 @@
 
     --fs-logo: 2.5rem;
     --fs-nav: 1rem;
-    --fs-maintitle: 2.5rem;
-    --fs-subtext: 1.8rem;
-    --fs-button: 0.8rem;
+    --fs-maintitle: 4rem;
+    --fs-subtext: 2rem;
+    --fs-button: 1rem;
 
     --fw-big: 700;
     --fw-medium: 500;
@@ -34,14 +34,15 @@
     --fs-logo: 2.5rem;
     --fs-nav: 1.1rem;
     --fs-maintitle: 4.5rem;
-    --fs-subtext: 1.8rem;
-    --fs-button: 0.8rem;
+    --fs-subtext: 2.5rem;
+    --fs-button: 1.3rem;
 
     --fw-big: 700;
     --fw-medium: 500;
 
     --Lh-main: 1.3rem;
     --Lh-sub: 0.8rem;
+}
 }
 
 *, *:before, *::after {box-sizing: inherit};
@@ -53,14 +54,16 @@ html {
     backdrop-filter: blur(50px);
 }
 
-.bg-image {
-    background-image: url(/images/racingcar.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    background-attachment: fixed;
-    top: 0;
+.text h1 {
+    font-size: var(--fs-maintitle);
+}
+
+.text p {
+    font-size: var(--fs-subtext);
+    width: 65%;
+    margin-block: 1rem;
+    font-weight: var(--fw-medium);
+    backdrop-filter: blur(1px);
 }
 
 
@@ -68,7 +71,7 @@ body {
 
     /* background */
 
-    background-image: url(/images/racingcar.png);
+    background-image: url(./images/racingcar.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -93,7 +96,7 @@ header {
     z-index: 999;
     width: 100%;
     margin: 0;
-    top: 7rem;
+    top: 1rem;
     right: 0;
     left: 0;
 }
@@ -195,7 +198,7 @@ nav li {
     display: block;
     background: white;
     height: 6px;
-    width: 1.9rem;
+    width: 2rem;
     border-radius: 1.5px;
     position: relative;
 }
@@ -207,31 +210,23 @@ nav li {
 }
 
 .nav-switch-label::before {
-    bottom: 10px;
+    bottom: 35px;
 }
 
 .nav-switch-label::after {
-    top: 10px;
+    top: 35px;
 }
 
 .container {
-    margin-top: 8rem;
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
 }
 
-.container h1 {
+.container .h1 {
     font-size: var(--fs-maintitle);
-    margin-block: 1rem;
-}
-
-.container p {
-    font-size: var(--fs-subtext);
-    width: 65%;
-    margin-block: 1rem;
-    font-weight: var(--fw-medium);
-    backdrop-filter: blur(1px);
+    margin-top: 100rem;
 }
 
 .btt {
@@ -259,6 +254,10 @@ button {
     color: white;
     font-size: var(--fs-button);
     border: 0;
+}
+
+footer {
+    margin-top: 10rem;
 }
 
 @media screen and (min-width: 800px) {
@@ -345,13 +344,18 @@ button {
 
     .btt .second:hover {
         background-color: white;
-        color: var(--accent-color;
+        color: var(--accent-color);
         font-weight: bold;
         -webkit-transition: all 500ms ease;
         -moz-transition: all 500ms ease;
         -ms-transition: all 500ms ease;
         -o-transition: all 500ms ease;
         transition: all 500ms ease; 
+    }
+
+    footer {
+        margin-top: 15rem;
+        
     }
 
 }
