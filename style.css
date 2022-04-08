@@ -9,7 +9,7 @@
 
     --fs-logo: 2.5rem;
     --fs-nav: 1rem;
-    --fs-maintitle: 4rem;
+    --fs-maintitle: 3rem;
     --fs-subtext: 2rem;
     --fs-button: 1rem;
 
@@ -60,7 +60,7 @@ html {
 
 .text p {
     font-size: var(--fs-subtext);
-    width: 65%;
+    width: 85%;
     margin-block: 1rem;
     font-weight: var(--fw-medium);
     backdrop-filter: blur(1px);
