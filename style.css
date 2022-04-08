@@ -336,6 +336,10 @@ footer {
         width: 25%;
     }
 
+    .btt .second {
+        width: 15%;
+    }
+
     .btt .first:hover {
         background-color: white;
         color: var(--main-color);
