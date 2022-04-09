@@ -243,7 +243,7 @@ nav li {
 
 
 .btt .first {
-    width: 50%;
+    width: 56%;
     background-color: var(--main-color);
 }
 
@@ -266,7 +266,7 @@ button:active {
 }
 
 footer {
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 
 @media screen and (min-width: 800px) {
