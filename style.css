@@ -106,7 +106,7 @@ header {
 
 header h1 {
     text-align: left;
-    letter-spacing: -2.1px;
+    letter-spacing: -3.2px;
     font-size: var(--fs-logo);
 }
 
@@ -157,6 +157,8 @@ nav a {
     opacity: 0;
     transition: opacity 100ms ease-in-out;
 }
+
+
 
 nav span {
     border: 1px solid #B1B1B1;
@@ -235,15 +237,17 @@ nav li {
     text-align: left;
 }
 
+
 .btt .first {
-    width: 205px;
+    width: 50%;
     background-color: var(--main-color);
 }
 
 .btt .second {
-    width: 135px;
+    width: 31%;
     background-color: var(--accent-color);
 }
+
 
 button {
     padding: 15px 19px;
@@ -251,6 +255,10 @@ button {
     color: white;
     font-size: var(--fs-button);
     border: 0;
+}
+
+button:active {
+    font-weight: bold;
 }
 
 footer {
@@ -315,6 +323,7 @@ footer {
     nav a {
         opacity: 1;
         font-size: var(--fs-nav);
+        position: relative;
     }
 
     nav {
@@ -324,6 +333,25 @@ footer {
         align-items: center;
         font-size: 10px;
     }
+
+    nav a::before {
+        content: '';
+        height: 5px;
+        background: white;
+        position: absolute;
+        bottom: -0.75em;  
+        left: 0;
+        right: 0;
+        transform: scale(0, 1);
+        transition: transform ease-in-out 250ms; */
+
+    }
+
+    nav a:hover::before {
+        transform: scale(1,1);
+        
+    }    
+
 
     nav ul {
         display: flex;
@@ -337,7 +365,7 @@ footer {
     }
 
     .btt .second {
-        width: 15%;
+        width: 17%;
     }
 
     .btt .first:hover {
@@ -349,6 +377,7 @@ footer {
         -ms-transition: all 500ms ease;
         -o-transition: all 500ms ease;
         transition: all 500ms ease; 
+        cursor: pointer;
     }
 
     .btt .second:hover {
@@ -357,14 +386,13 @@ footer {
         font-weight: bold;
         -webkit-transition: all 500ms ease;
         -moz-transition: all 500ms ease;
-        -ms-transition: all 500ms ease;
         -o-transition: all 500ms ease;
         transition: all 500ms ease; 
+        cursor: pointer;
     }
 
     footer {
         margin-top: 10rem;
-        
     }
 
 }
