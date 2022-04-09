@@ -216,6 +216,10 @@ nav li {
     bottom: 35px;
 }
 
+.nav-switch-label::before:focus{
+    transform: rotate(45deg);
+}
+
 .nav-switch-label::after {
     top: 35px;
 }
