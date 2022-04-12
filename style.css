@@ -292,7 +292,7 @@ footer {
     }
 
     .container p {
-        width: 55%;
+        width: 45%;
     }
 
     .nav-switch-label {
@@ -356,7 +356,6 @@ footer {
         
     }    
 
-
     nav ul {
         display: flex;
         flex-direction: row;
@@ -366,6 +365,7 @@ footer {
 
     button {
         padding: 25px;
+        font-weight: 500;
     }
 
     .btt .first {
@@ -379,7 +379,6 @@ footer {
     .btt .first:hover {
         background-color: white;
         color: var(--main-color);
-        font-weight: bold;
         -webkit-transition: all 500ms ease;
         -moz-transition: all 500ms ease;
         -ms-transition: all 500ms ease;
@@ -391,7 +390,6 @@ footer {
     .btt .second:hover {
         background-color: white;
         color: var(--accent-color);
-        font-weight: bold;
         -webkit-transition: all 500ms ease;
         -moz-transition: all 500ms ease;
         -o-transition: all 500ms ease;
