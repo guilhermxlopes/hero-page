@@ -168,6 +168,10 @@ nav li {
 
 /* mobile toggle */
 
+.nav-switch {
+  display: none;
+}
+
 .nav-switch:checked ~ nav {
   transform: scale(1, 1);
 }
@@ -175,10 +179,6 @@ nav li {
 .nav-switch:checked ~ nav a {
   opacity: 1;
   transition: opacity 250ms ease-in-out 250ms;
-}
-
-.nav-switch {
-  display: none;
 }
 
 .nav-switch-label {
