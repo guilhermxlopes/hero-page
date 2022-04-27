@@ -56,15 +56,18 @@ html {
 
 .text h1 {
   font-size: var(--fs-maintitle);
+  letter-spacing: -0.25rem;
   margin-top: -4rem;
+  text-shadow: 0 0 8rem black;
 }
 
 .text p {
   font-size: var(--fs-subtext);
   width: 85%;
   margin-block: 1rem;
+  letter-spacing: -0.1rem;
   font-weight: var(--fw-medium);
-  backdrop-filter: blur(1px);
+  text-shadow: 0 0 3rem black;
 }
 
 body {
