@@ -242,11 +242,13 @@ nav li {
 .btt .first {
   width: 56%;
   background-color: var(--main-color);
+  box-shadow: 1rem 1rem 5rem hsla(0, 0%, 0%, 1.2);
 }
 
 .btt .second {
   width: 31%;
   background-color: var(--accent-color);
+  box-shadow: 1rem 1rem 5rem hsla(0, 0%, 0%, 1.2);
 }
 
 button {
