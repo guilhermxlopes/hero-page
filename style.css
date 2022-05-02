@@ -17,6 +17,8 @@
 
   --Lh-main: 1.3rem;
   --Lh-sub: 0.8rem;
+
+  --time-navload: 1s;
 }
 
 @media screen and (min-width: 800px) {
@@ -132,6 +134,7 @@ nav {
   background-color: white;
   width: 100%;
   height: 100;
+  animation: nav-load 1s ease-in-out;
 }
 
 nav a:hover {
@@ -268,6 +271,15 @@ footer {
   opacity: 0.6;
 }
 
+@keyframes nav-load {
+  0% {
+    transform: translateY(-1000);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 @media screen and (min-width: 800px) {
   html {
     display: flex;
@@ -336,6 +348,7 @@ footer {
     justify-content: flex-end;
     align-items: center;
     font-size: 10px;
+    animation: nav-load;
   }
 
   nav a::before {
