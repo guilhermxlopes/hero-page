@@ -282,7 +282,9 @@ button:active {
 
 footer {
   margin-top: 3rem;
-  opacity: 0.6;
+  opacity: 1;
+  color: #8383832f;
+  animation: navload var(--time-navload) ease-in-out 600ms;
 }
 
 @media screen and (min-width: 800px) {
