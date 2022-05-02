@@ -258,7 +258,7 @@ nav li {
   width: 56%;
   background-color: var(--main-color);
   box-shadow: 0.2rem 0.2rem 1rem hsla(0, 0%, 0%, 0.5);
-  animation: navload var(--time-navload) ease-in-out 400ms;
+  animation: navload var(--time-navload) ease-in-out 300ms;
 }
 
 .btt .second {
@@ -320,7 +320,7 @@ footer {
   }
 
   .text p {
-    animation: navload var(--time-navload) ease-in-out 100ms;
+    animation: navload var(--time-navload) ease-in-out 200ms;
   }
 
   header {
