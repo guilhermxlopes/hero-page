@@ -103,6 +103,8 @@ header {
   right: 0;
   left: 0;
   animation: navload var(--time-navload) ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 @keyframes navload {
