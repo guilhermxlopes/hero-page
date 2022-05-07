@@ -136,6 +136,7 @@ header .name {
 /* styling navbar */
 
 nav {
+  position: absolute;
   text-align: left;
   top: 85;
   right: 0;
@@ -203,7 +204,7 @@ nav li {
   top: 0;
   right: 0;
   margin-right: 1rem;
-  height: 15%;
+  height: 100%;
   display: flex;
   align-items: center;
 }
@@ -318,6 +319,7 @@ footer {
   }
 
   .text h1 {
+    color: white;
     font-size: var(--fs-maintitle);
     animation: navload var(--time-navload) ease-in-out 100ms;
   }
@@ -422,6 +424,7 @@ footer {
   }
 
   footer {
+    width: 100%;
     text-align: left;
     margin-top: 3rem;
     margin-right: 71rem;
