@@ -244,6 +244,7 @@ nav li {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
+  width: clamp(85%, 80vh, 90vh);
 }
 
 .btt {
@@ -306,9 +307,9 @@ footer {
     margin-top: 4em;
   }
 
-  .container h1 {
+  /* .container h1 {
     width: 65%;
-  }
+  } */
 
   .container p {
     width: 45%;
