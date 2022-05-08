@@ -54,10 +54,13 @@ html {
   backdrop-filter: blur(50px);
 }
 
+.text {
+  margin-top: -6rem;
+}
+
 .text h1 {
   font-size: var(--fs-maintitle);
   letter-spacing: -0.25rem;
-  margin-top: -4rem;
   text-shadow: 0 0 8rem black;
 }
 
@@ -243,7 +246,7 @@ nav li {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
-  width: clamp(95%, 80vh, 90vh);
+  width: clamp(95%, 70%, 95%);
 }
 
 .btt {
@@ -257,14 +260,14 @@ nav li {
 }
 
 .btt .first {
-  width: 26%;
+  width: 55%;
   background-color: var(--main-color);
   box-shadow: 0.2rem 0.2rem 1rem hsla(0, 0%, 0%, 0.5);
   animation: navload var(--time-navload) ease-in-out 300ms;
 }
 
 .btt .second {
-  width: 31%;
+  width: 36%;
   background-color: var(--accent-color);
   box-shadow: 0.2rem 0.2rem 1rem hsla(0, 0%, 0%, 0.5);
   animation: navload var(--time-navload) ease-in-out 400ms;
@@ -301,15 +304,27 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-inline: 15rem;
+    margin-inline: 10rem;
+  }
+
+  .text {
+    margin-top: -10rem;
   }
 
   .container h1 {
-    width: 65%;
+    width: 85vh;
+  }
+
+  .btt .first {
+    width: 22rem;
+  }
+
+  .btt .second {
+    width: 15rem;
   }
 
   .container p {
-    width: 45%;
+    width: 75%;
   }
 
   .nav-switch-label {
@@ -390,14 +405,6 @@ footer {
   button {
     padding: 25px;
     font-weight: 500;
-  }
-
-  .btt .first {
-    width: clamp(25%, 28%, 30%);
-  }
-
-  .btt .second {
-    width: clamp(8%, 17%, 25%);
   }
 
   .btt .first:hover {
