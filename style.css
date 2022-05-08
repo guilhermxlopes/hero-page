@@ -254,7 +254,7 @@ nav li {
   flex-direction: column;
   gap: 1rem;
   flex-basis: 1;
-  margin-top: 2em;
+  margin-top: 1em;
   text-align: left;
   animation: nav-load var(--time-navload) 400ms;
 }
@@ -308,11 +308,15 @@ footer {
   }
 
   .text {
-    margin-top: -10rem;
+    margin-top: -11rem;
   }
 
   .container h1 {
-    width: 85vh;
+    width: 55vw;
+  }
+
+  .container p {
+    width: 35vw;
   }
 
   .btt .first {
@@ -321,10 +325,6 @@ footer {
 
   .btt .second {
     width: 15rem;
-  }
-
-  .container p {
-    width: 75%;
   }
 
   .nav-switch-label {
@@ -431,8 +431,7 @@ footer {
   footer {
     width: 100%;
     text-align: left;
-    margin-top: 3rem;
-    margin-right: 71rem;
+    margin-top: 1rem;
   }
 
   header h1:hover {
