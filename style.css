@@ -232,7 +232,7 @@ nav li {
 }
 
 .nav-switch-label::before {
-  bottom: 35px;
+  bottom: 40px;
 }
 
 .nav-switch-label::before:focus {
@@ -240,7 +240,7 @@ nav li {
 }
 
 .nav-switch-label::after {
-  top: 35px;
+  top: 40px;
 }
 
 .container {
@@ -262,14 +262,14 @@ nav li {
 }
 
 .btt .first {
-  width: 55%;
+  width: 75%;
   background-color: var(--main-color);
   box-shadow: 0.2rem 0.2rem 1rem hsla(0, 0%, 0%, 0.5);
   animation: navload var(--time-navload) ease-in-out 300ms;
 }
 
 .btt .second {
-  width: 36%;
+  width: 46%;
   background-color: var(--accent-color);
   box-shadow: 0.2rem 0.2rem 1rem hsla(0, 0%, 0%, 0.5);
   animation: navload var(--time-navload) ease-in-out 400ms;
