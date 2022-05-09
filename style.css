@@ -21,24 +21,26 @@
   --time-navload: 1s;
 }
 
-:root {
-  --ff-website: "Roboto";
-  --clr-text: white;
+@media screen and (min-width: 800px) {
+  :root {
+    --ff-website: "Roboto";
+    --clr-text: white;
 
-  --main-color: #df500a;
-  --accent-color: #ff8242;
+    --main-color: #df500a;
+    --accent-color: #ff8242;
 
-  --fs-logo: 2.5rem;
-  --fs-nav: 1.1rem;
-  --fs-maintitle: 4.7rem;
-  --fs-subtext: 2.3rem;
-  --fs-button: 1.3rem;
+    --fs-logo: 2.5rem;
+    --fs-nav: 1.1rem;
+    --fs-maintitle: 4.7rem;
+    --fs-subtext: 2.3rem;
+    --fs-button: 1.3rem;
 
-  --fw-big: 700;
-  --fw-medium: 500;
+    --fw-big: 700;
+    --fw-medium: 500;
 
-  --Lh-main: 1.3rem;
-  --Lh-sub: 0.8rem;
+    --Lh-main: 1.3rem;
+    --Lh-sub: 0.8rem;
+  }
 }
 
 *,
