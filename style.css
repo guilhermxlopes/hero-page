@@ -385,6 +385,7 @@ footer {
     content: "";
     height: 5px;
     background: white;
+    border-radius: 10px;
     position: absolute;
     bottom: -0.75em;
     left: 0;
