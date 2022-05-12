@@ -57,7 +57,7 @@ html {
 }
 
 .text {
-  margin-top: -6rem;
+  margin-top: -2rem;
 }
 
 .text h1 {
@@ -69,7 +69,7 @@ html {
 .text p {
   font-size: var(--fs-subtext);
   width: 85%;
-  margin-block: 1rem;
+  margin-block: 0.25rem;
   letter-spacing: -0.1rem;
   font-weight: var(--fw-medium);
   text-shadow: 0 0 3rem black;
