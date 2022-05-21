@@ -295,7 +295,7 @@ footer {
 }
 
 /* desktop/bigger screens version */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   html {
     display: flex;
     flex-direction: column;
