@@ -102,7 +102,7 @@ header {
   z-index: 999;
   width: 100%;
   margin: 0;
-  top: -4rem;
+  top: -2rem;
   right: 0;
   left: 0;
   animation: navload var(--time-navload) ease-in-out;
@@ -310,7 +310,7 @@ footer {
   }
 
   .text {
-    margin-top: -11rem;
+    margin-top: -7rem;
   }
 
   .container h1 {
@@ -344,7 +344,6 @@ footer {
   }
 
   header {
-    margin: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
